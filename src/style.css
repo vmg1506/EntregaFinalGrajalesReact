@@ -7,10 +7,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 header{
-    background-color: white;
+    background-color: #ababab;
     z-index: 5;
     position: fixed;
     top: 0;
@@ -65,6 +66,7 @@ header .containerCart{
     justify-content: center;
     align-items: center;
     min-width: 72px;
+    background-color: grey;
 }
 
 header .containerCart .containerLength{
