@@ -22,7 +22,7 @@ const ItemCart = ( {id, title, image, price, quantity } ) => {
 
             <div className="price">
                 <span className="subtotal">Subtotal</span>
-                <span className="price">${price * quantity}</span>
+                <span className="price">${`${price} * ${quantity}`}</span>
             </div>
 
             <button className="delete" onClick={ () => removeFromCart(id) }>

@@ -34,9 +34,8 @@ const ContainerCart = () => {
                         : listCart.map(producto => ( 
                             <ItemCart 
                                 key={producto.id}
-                                id={producto.id}
                                 title={producto.title}
-                                image={producto.imageProduct.firtsImage}
+                                image={producto.imageProduct}
                                 quantity={producto.quantity}
                                 price={producto.price}
                             />
